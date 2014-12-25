@@ -1,0 +1,26 @@
+
+%gcc -Wall infilename.c -o outfilename.o
+-Wall enables most compiler warnings
+
+
+% gcc -g -O0 -Wall infilename.c -o outfilename.o
+
+Using gdb:
+Some useful commands:
+•    break linenumber – create breakpoint at specified line
+•    break file:linenumber – create breakpoint at line in
+file
+•    run – run program
+
+• c – continue execution
+
+• next – execute next line
+•    step – execute next line or step into function
+•    quit – quit gdb
+•    print expression – print current value of the specified
+expression
+•    help command – in-program help
+
+valgrind: diagnose memory-related problems
+
+the gcc option -Dname=value sets a preprocessor define that can be used

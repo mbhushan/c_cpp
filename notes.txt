@@ -24,3 +24,8 @@ expression
 valgrind: diagnose memory-related problems
 
 the gcc option -Dname=value sets a preprocessor define that can be used
+
+•    Big endian: the most significant bits (MSBs) occupy the lower address. This representation is used in the powerpc
+processor. Networks generally use big-endian order, and thus it is called network order.
+•    Little endian : the least signficant bits (LSBs) occupy the lower address. This representation is used on all x86
+compatible processors.
